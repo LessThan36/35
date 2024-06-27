@@ -37,7 +37,7 @@ GameManager.prototype.isGameTerminated = function () {
 GameManager.prototype.setup = function () {
   this.grid        = new Grid(this.size);
 
-  this.score       = 0;
+  this.score       = 1;
   this.over        = false;
   this.won         = false;
   this.keepPlaying = false;
@@ -63,6 +63,7 @@ GameManager.prototype.addRandomTile = function () {
     var tile = new Tile(this.grid.randomAvailableCell(), value);
     
     this.grid.insertTile(tile);
+    this.score += 1;
   }
 };
 
@@ -135,9 +136,6 @@ GameManager.prototype.move = function (direction) {
 
           // Converge the two tiles' positions
           tile.updatePosition(positions.next);
-
-          // Update the score
-          self.score += 1;
 
           // The mighty 10 tile
           if (merged.value === 10) self.won = true;
