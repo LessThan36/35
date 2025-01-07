@@ -682,6 +682,9 @@ hr {
   .tile.tile-56 .tile-inner {
     color: #9c019a;
     background: #80e2ff; }
+  .tile.tile-57 .tile-inner {
+    color: #b7e76b;
+    background: #937c95; }
   .tile.tile-58 .tile-inner {
     color: #714368;
     background: #53ca99; }
@@ -691,6 +694,9 @@ hr {
   .tile.tile-60 .tile-inner {
     color: #105650;
     background: #fcc2c2; }
+  .tile.tile-61 .tile-inner {
+    color: #8ae1af;
+    background: #ad5858; }
   .tile.tile-62 .tile-inner {
     color: #124695;
     background: #10fde4; }
@@ -700,6 +706,9 @@ hr {
   .tile.tile-64 .tile-inner {
     color: #cd07a9;
     background: #b8a790; }
+  .tile.tile-65 .tile-inner {
+    color: #ffb91b;
+    background: #7870be; }
   .tile.tile-66 .tile-inner {
     color: #129169;
     background: #ebffc4; }
@@ -760,6 +769,9 @@ hr {
   .tile.tile-86 .tile-inner {
     color: #af008f;
     background: #8faf00; }
+  .tile.tile-87 .tile-inner {
+    color: #8b6419;
+    background: #000553; }
   .tile.tile-88 .tile-inner {
     color: #4e0c9a;
     background: #90ffa3; }
@@ -851,9 +863,18 @@ hr {
     color: #f38eff;
     background: #934185;
     font-size: 26px; }
+  .tile.tile-120 .tile-inner {
+    color: #f9f6f2;
+    background: #3a590d; }
   .tile.tile-121 .tile-inner {
     color: #241408;
     background: #68e751; }
+  .tile.tile-129 .tile-inner {
+    color: #da0c0c;
+    background: #d7d7d7; }
+  .tile.tile-130 .tile-inner {
+    color: #f2e21f;
+    background: #d7d7d7; }
   .tile.tile-150 .tile-inner {
     color: #f0e835;
     background: #915280; }
@@ -881,6 +902,10 @@ hr {
     color: #d1ab03;
     background: #0309d1;
     font-size: 16px; }
+  .tile.tile-8282 .tile-inner {
+    color: #a78669;
+    background: #e1cebc;
+    font-size: 20px; }
   .tile.tile-10000 .tile-inner {
     color: #0309d1;
     background: #d1ab03;
@@ -889,6 +914,14 @@ hr {
     color: #feab95;
     background: #f0fed4;
     font-size: 16px; }
+  .tile.tile-828282 .tile-inner {
+    color: #b9a18b;
+    background: #705843;
+    font-size: 14px; }
+  .tile.tile-82828282 .tile-inner {
+    color: #d6b699;
+    background: #f2e4d7;
+    font-size: 11px; }
   .tile.tile-3434343434 .tile-inner {
     color: #f9f6f2;
     background: #f10c7b;
