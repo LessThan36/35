@@ -68,12 +68,6 @@ HTMLActuator.prototype.addTile = function (tile) {
 
   inner.classList.add("tile-inner");
   inner.textContent = tile.value;
-  if (tile.value === 101) inner.textContent = 1;
-  if (tile.value === 120) inner.textContent = 20;
-  if (tile.value === 121) inner.textContent = 21;
-  if (tile.value === 129) inner.textContent = 29;
-  if (tile.value === 130) inner.textContent = 30;
-  if (tile.value === 150) inner.textContent = 50;
 
   if (tile.previousPosition) {
     // Make sure that the tile gets rendered in the previous position first
@@ -137,7 +131,7 @@ HTMLActuator.prototype.updateBestScore = function (bestScore) {
 
 HTMLActuator.prototype.message = function (won) {
   var type    = won ? "game-won" : "game-over";
-  var message = won ? "You win!" : "Game over!";
+  var message = won ? "You beat 35 💗" : "💔";
 
   if (typeof ga !== "undefined") {
     ga("send", "event", "game", "end", type, this.score);
@@ -161,11 +155,11 @@ HTMLActuator.prototype.scoreTweetButton = function () {
   var tweet = document.createElement("a");
   tweet.classList.add("twitter-share-button");
   tweet.setAttribute("href", "https://twitter.com/share");
-  tweet.setAttribute("data-via", "fluff");
+  tweet.setAttribute("data-via", "35");
   tweet.textContent = "Tweet";
 
-  var text = "My score ended up as " + this.score + " this on 10, a game where you " +
-             "join numbers to get 10s! #10game";
+  var text = "I spawned " + this.score + " this many tiles on 35, a game where you " +
+             "merge tiles to get 35s! #advyout";
   tweet.setAttribute("data-text", text);
 
   return tweet;
