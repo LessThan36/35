@@ -545,6 +545,9 @@ hr {
   .tile.tile-☕ .tile-inner {
     color: #ffffff;
     background: #dddbd1; }
+  .tile.tile-🍵 .tile-inner {
+    color: #ffffff;
+    background: #d1dec8; }
   .tile.tile-🍏 .tile-inner {
     color: #ffffff;
     background: #9dff4c; }
@@ -559,7 +562,7 @@ hr {
     background: #ff994e; }
   .tile.tile-🍇 .tile-inner {
     color: #ffffff;
-    background: #b56fff; }
+    background: #553678; }
   .tile.tile-👑 .tile-inner {
     color: #ffffff;
     background: #836b19; }
